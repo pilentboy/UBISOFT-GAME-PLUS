@@ -10,7 +10,7 @@ ul li{
 }
 
 :root{
-
+    --btn-bg-blue:rgb(10, 87, 231);
 }
 
 .wrap{
@@ -210,7 +210,7 @@ img.company-logo{
     justify-content: center;
     border-radius: 50px;
     font-size: 1.3rem;
-    background-color: rgb(10, 87, 231);
+    background-color: var(--btn-bg-blue);
     position: relative;
     text-transform: uppercase;
     overflow: hidden;
@@ -291,5 +291,87 @@ img.company-logo{
 
 
 
+/*--------footer*/
+#footer{
+    width: 100vw;
+    min-height: 300px;
+    background-color: black;
+    position: relative;
+}
 
+#footer::after{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    content: "";
+    background-color: #fff;
+    top: 0;
+    left: 46%;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius:50px;
+
+}
+
+#footer #top{
+    width: 100%;
+    background-color: #091225;
+}
+
+
+#footer #top img{
+    width: 450px;
+    height: 280px;
+    
+}
+
+
+#footer #top .ubisoft-connect{
+  max-width: 90vw;
+}
+#footer #top .ubisoft-connect *{
+    color: white;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+#footer #top .ubisoft-connect h1{
+    font-size: 3rem;
+    
+} 
+
+#footer #top .ubisoft-connect span{
+    font-size: 1.6rem;
+}
+
+
+#footer #top .ubisoft-connect span span{
+    font-size: 1.8rem;
+}
+
+#footer #top .ubisoft-connect .discover-btn{
+    width: 200px;
+    height: 40px;
+    background-color: var(--btn-bg-blue);
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: 1px solid var(--btn-bg-blue);
+    transition: all 0.2s;
+}
+
+#footer #top .ubisoft-connect .discover-btn:hover{
+    background-color: #fff;
+    color: var(--btn-bg-blue);
+}
+
+
+
+
+#footer #bottom{
+    width: 100%;
+    min-height: 50px;
+    background-color: red;
+}
 
