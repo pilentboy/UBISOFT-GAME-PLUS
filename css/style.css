@@ -260,7 +260,7 @@ img.company-logo{
 #main .ubisoft-store .games-container{
     min-height: 80%;
     width: 100%;
-	margin:3px 0;
+	margin:0 0;
 }
 
 #main .ubisoft-store .games-container .game-item{
@@ -269,7 +269,7 @@ img.company-logo{
     max-width: 90vw;
     position: relative;
     text-align: center;
-    margin: 0 0;
+    margin: 5px 0;
 	
 }
 #main .ubisoft-store .games-container .game-item:hover > span{
