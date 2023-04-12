@@ -38,7 +38,7 @@ ul li{
 
 body{
     background-color: black;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -244,6 +244,7 @@ img.company-logo{
 /*---------------main*/
 #main{
     height: 100%;
+	
 }
 
 #main .ubisoft-store{
@@ -259,6 +260,7 @@ img.company-logo{
 #main .ubisoft-store .games-container{
     min-height: 80%;
     width: 100%;
+	margin:3px 0;
 }
 
 #main .ubisoft-store .games-container .game-item{
@@ -267,7 +269,8 @@ img.company-logo{
     max-width: 90vw;
     position: relative;
     text-align: center;
-    margin: 5px 0;
+    margin: 0 0;
+	
 }
 #main .ubisoft-store .games-container .game-item:hover > span{
     text-decoration:underline
