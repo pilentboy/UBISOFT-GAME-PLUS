@@ -28,7 +28,19 @@
         height: 300px;
         flex: 0.3;
     }
+
+    /*-------------footer*/
+    #footer #top .ubisoft-connect{
+        align-items: center;
+    }
+    #footer #top img{
+        width: 600px;
+        height: 320px;
+        max-width: 95vw;
+
+    }
 }
+
 
 
 @media only screen and (max-width:770px) {
@@ -58,7 +70,14 @@
         width: 350px;
         flex: none;
     }
-    
+
+
+    /*foooter*/
+    #footer #text{
+        text-align: center;
+        width: 80vw;
+        font-size: 1.1rem !important;
+    }
    
 }
 @media only screen and (max-width:330px) {
