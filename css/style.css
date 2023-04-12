@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
 
 ul li{
     list-style: none;
@@ -14,6 +11,10 @@ ul li{
 
 :root{
 
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .flex{
@@ -46,6 +47,10 @@ body{
 #header{
     height: 100vh;
     width: 100vw;
+}
+
+#header a{
+    text-decoration: none;
 }
 
 #header #nav{
@@ -199,7 +204,6 @@ img.company-logo{
 #header #header-news #header-news-text a{
     width: 200px;
     padding: 15px 0;
-    /* height: 50px; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -230,6 +234,57 @@ img.company-logo{
     height: 100%;
     left: 0;
     top: 0;
+}
+
+
+
+
+
+
+/*---------------main*/
+#main{
+    height: 100%;
+}
+
+#main .ubisoft-store{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#main .ubisoft-store #store-title{
+    padding:30px 0;
+}
+
+#main .ubisoft-store .games-container{
+    min-height: 80%;
+    width: 100%;
+}
+
+#main .ubisoft-store .games-container .game-item{
+    width: 400px;
+    height: 450px;
+    max-width: 90vw;
+    position: relative;
+    text-align: center;
+    margin: 5px 0;
+}
+#main .ubisoft-store .games-container .game-item:hover > span{
+    text-decoration:underline
+
+}
+#main .ubisoft-store .games-container .game-item span{
+    position: absolute;
+    color: #fff;
+    top: 5%;
+    left: 5%;
+    font-size: 1.5rem;
+}
+
+
+#main .ubisoft-store .games-container .game-item .game-item-img{
+    width: 100%;
+    height: 100%
 }
 
 

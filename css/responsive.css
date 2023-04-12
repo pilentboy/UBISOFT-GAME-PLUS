@@ -22,6 +22,11 @@
 	#header #nav #header-right a{
 		padding:6px 10px;
 	}
+
+    #main .ubisoft-store .games-container .game-item{
+        height: 300px;
+        flex: 0.3;
+    }
 }
 
 
@@ -44,6 +49,12 @@
         height: 80%;
         justify-content: space-between;
         padding: 10px 0;
+    }
+
+    #main .ubisoft-store .games-container .game-item{
+        height: 400px;
+        width: 350px;
+        flex: none;
     }
     
    
